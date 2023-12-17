@@ -1,4 +1,4 @@
-package com.example.roomsiswaa.data
+package com.example.roomsiswa.data
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
@@ -9,5 +9,5 @@ data class Siswa(
     val id : Int = 0,
     val nama : String,
     val alamat : String,
-    val telpon : String
+    val telepon : String
 )

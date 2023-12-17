@@ -1,4 +1,4 @@
-package com.example.roomsiswaa.data
+package com.example.roomsiswa.data
 
 import androidx.room.Dao
 import androidx.room.Delete
@@ -24,4 +24,5 @@ interface SiswaDao {
 
     @Query("SELECT * from tblSiswa ORDER BY nama ASC")
     fun getAllSiswa(): Flow<List<Siswa>>
+
 }
